@@ -82,6 +82,7 @@ Los microservicios son un enfoque arquitectónico que permite desarrollar aplica
 
 ### 14. [Algoritmos y estructuras de datos](14_algoritmos_y_estructura_de_datos.md) 
 Los algoritmos son secuencias de instrucciones para resolver problemas o realizar tareas. Su eficiencia se mide en términos de tiempo y espacio.
+
 ---
 
 ### 14. [Licencias de Software](15_licencias.md) 
