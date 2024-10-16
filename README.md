@@ -12,13 +12,13 @@ Aprende los cinco principios fundamentales de diseño orientado a objetos que me
 
 ---
 
-### 2. [Patrones de Diseño: Guía Simplificada](2_patrones_diseno.md)
+### 2. [Patrones de Diseño](2_patrones_diseno.md)
 Conoce los patrones de diseño que ofrecen soluciones probadas a problemas comunes en el desarrollo de software.
 
 
 ---
 
-### 3. [Arquitecturas de API: Explicación y Ejemplos](3_tipos_de_apis.md)
+### 3. [Arquitecturas de API](3_tipos_de_apis.md)
 Descubre los diferentes tipos de arquitecturas de API y sus aplicaciones.
 
 

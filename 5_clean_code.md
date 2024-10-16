@@ -2,66 +2,68 @@
 
 ------
 
-# Clean Code: Mejores Prácticas
+# Clean Code: Mejores Prácticas y Reglas Fundamentales
 
-Escribir código limpio mejora la mantenibilidad y comprensión del mismo, lo que facilita el trabajo en equipo y la evolución de los proyectos a lo largo del tiempo.
+Este documento cubre las reglas clave para escribir **Clean Code**, un enfoque que promueve la claridad, legibilidad y mantenibilidad del código.
 
-## Nombres de Variables Comprensibles
-
-Usa nombres que reflejen la intención del código.
-
-**Definición:**  
-Los nombres de las variables deben ser descriptivos y comunicar claramente su propósito. Un buen nombre ayuda a los desarrolladores a entender rápidamente el código sin necesidad de comentarios adicionales.
-
-**Usos:**  
-- Facilita la legibilidad del código.
-- Hace que el código sea autodescriptivo y fácil de seguir.
-
-**Ejemplos:**  
-- **Mal nombre:** `x`, `temp`, `data1`  
-- **Buen nombre:** `customerAge`, `orderTotal`, `userEmail`  
-  Un nombre como `customerAge` indica claramente que la variable almacena la edad del cliente.
+## Índice
+1. [Definición de Clean Code](#definición-de-clean-code)
+2. [Reglas de Clean Code](#reglas-de-clean-code)
+   - [Nombres Claros y Significativos](#nombres-claros-y-significativos)
+   - [Funciones Simples y Cortas](#funciones-simples-y-cortas)
+   - [Evitar Comentarios Innecesarios](#evitar-comentarios-innecesarios)
+   - [Control de Flujo Reducido](#control-de-flujo-reducido)
+   - [Evitar el Código Repetido](#evitar-el-código-repetido)
+   - [Utilizar Excepciones y No Retornos de Error](#utilizar-excepciones-y-no-retornos-de-error)
+   - [Organización Estructurada del Código](#organización-estructurada-del-código)
+   - [Mantener los Test Unitarios](#mantener-los-test-unitarios)
+3. [Conclusión](#conclusión)
 
 ---
 
-## Refactorización y Simplicidad
+## 1. Definición de Clean Code
 
-Refactoriza regularmente y busca la simplicidad en la solución.
-
-**Definición:**  
-La refactorización es el proceso de modificar el código existente para mejorar su estructura y claridad sin cambiar su comportamiento externo. La simplicidad implica diseñar soluciones que sean lo más directas posible, evitando complicaciones innecesarias.
-
-**Usos:**  
-- Mejora la legibilidad y mantenibilidad del código.
-- Elimina la complejidad innecesaria y hace que el código sea más fácil de entender.
-
-**Ejemplos:**  
-- **Antes de la refactorización:**  
-  Definición de una función para calcular un descuento que incluye una lógica condicional compleja.
-
-- **Después de la refactorización:**  
-  Simplificación de la lógica para calcular el descuento en una sola línea, mejorando la legibilidad.
+### Explicación:
+**Clean Code** se refiere a la práctica de escribir código que sea fácil de leer, entender y mantener. Se enfoca en la claridad, simplicidad y en minimizar la cantidad de errores posibles a lo largo del tiempo.
 
 ---
 
-## Evitar Duplicación (DRY)
+## 2. Reglas de Clean Code
 
-No repitas el mismo código en diferentes lugares.
+### Nombres Claros y Significativos
 
-**Definición:**  
-El principio DRY (Don't Repeat Yourself) sugiere que la duplicación de código debe evitarse, ya que cada pieza de conocimiento debe tener una única representación en el código.
+- **Explicación**: Los nombres de variables, funciones y clases deben ser descriptivos y reflejar su propósito. Evita usar abreviaturas o nombres genéricos como `temp` o `data`. Los nombres deben hacer obvia la intención del código.
+  
+### Funciones Simples y Cortas
 
-**Usos:**  
-- Facilita la mantenibilidad del código, ya que los cambios solo necesitan hacerse en un lugar.
-- Reduce la posibilidad de errores y comportamientos inconsistentes.
+- **Explicación**: Las funciones deben realizar una sola tarea y hacerlo bien. Mantén las funciones cortas para que sean fáciles de entender y probar. Idealmente, no deberían tener más de 20 líneas de código, y deben ser fáciles de seguir.
 
-**Ejemplos:**  
-- **Código duplicado:**  
-  Múltiples funciones que calculan áreas de diferentes formas geométricas.
+### Evitar Comentarios Innecesarios
 
-- **Código refactorizado (evitando duplicación):**  
-  Una única función que calcula el área según el tipo de forma y sus dimensiones.
+- **Explicación**: En lugar de escribir comentarios para explicar el código, escribe código que se explique por sí mismo. Los comentarios pueden volverse obsoletos o no reflejar correctamente el comportamiento del código. Úsalos solo cuando sea absolutamente necesario, como para explicar decisiones de diseño complejas.
+
+### Control de Flujo Reducido
+
+- **Explicación**: Evita estructuras de control complicadas como múltiples bucles anidados o muchas condiciones. Utiliza `if`, `else`, y `switch` de manera clara y evita los "efectos secundarios" (por ejemplo, cambiar el estado del programa dentro de condiciones o bucles).
+
+### Evitar el Código Repetido
+
+- **Explicación**: No dupliques código. Si encuentras que necesitas escribir el mismo bloque de código más de una vez, refactorízalo en una función o método separado. Esto mejora la mantenibilidad y facilita realizar cambios en el futuro.
+
+### Utilizar Excepciones y No Retornos de Error
+
+- **Explicación**: En lugar de devolver códigos de error y forzar al usuario a manejarlos, lanza excepciones. Las excepciones permiten un manejo de errores más limpio y hacen que el código sea más fácil de seguir.
+
+### Organización Estructurada del Código
+
+- **Explicación**: Estructura tu código de manera lógica. Agrupa funciones y clases que estén relacionadas, y sigue convenciones de organización dentro de tu equipo o comunidad de desarrollo. El código debe estar organizado de forma que otros desarrolladores puedan entender fácilmente el flujo general del programa.
+
+### Mantener los Test Unitarios
+
+- **Explicación**: El código limpio debe ser probado. Mantén una buena cobertura de pruebas unitarias para asegurar que el código funcione como se espera. Asegúrate de que los tests sean claros y fáciles de entender, y actualízalos cuando se realicen cambios en el código.
 
 ---
 
-Implementar estas prácticas de Clean Code no solo mejora la calidad del código, sino que también facilita la colaboración entre los desarrolladores, reduce la posibilidad de errores y acelera el desarrollo de nuevas funcionalidades. Al seguir estos principios, podrás crear aplicaciones más sostenibles y fáciles de mantener.
+## 3. Conclusión
+
+**Clean Code** se trata de escribir código que sea fácil de leer y mantener. Siguiendo estas reglas, puedes mejorar la calidad de tu código y hacer que sea más fácil de entender, modificar y extender para otros desarrolladores o para ti mismo en el futuro.

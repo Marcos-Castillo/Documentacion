@@ -175,3 +175,8 @@ Estos patrones gestionan la interacción y responsabilidad entre objetos.
 ### Gateway
 - **Descripción**: Un punto de entrada para un conjunto de microservicios que gestiona las solicitudes y respuestas.
 - **Uso**: Ayuda a simplificar la comunicación entre los clientes y los microservicios.
+
+### Informacion Complementaria
+
+- **Refactoring.Guru**: Este sitio te muestra el panorama general, la manera en que se interrelacionan y colaboran todos estos temas, y cómo siguen siendo relevantes. .
+[link](https://refactoring.guru/es/design-patterns)
