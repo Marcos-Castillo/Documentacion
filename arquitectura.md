@@ -1,4 +1,4 @@
-[← Inicio](readme.md)
+[← Inicio](./README.md)
 
 ------
 # Arquitectura de Software

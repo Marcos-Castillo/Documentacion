@@ -1,4 +1,4 @@
-[← Inicio](readme.md)
+[← Inicio](./README.md)
 
 ------
 # Testing y Pruebas Automatizadas

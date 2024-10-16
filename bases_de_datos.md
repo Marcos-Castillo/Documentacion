@@ -1,4 +1,4 @@
-[← Inicio](readme.md)
+[← Inicio](./README.md)
 
 ------
 # Bases de Datos: Mejores Prácticas y Optimización

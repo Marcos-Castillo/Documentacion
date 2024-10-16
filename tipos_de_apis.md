@@ -1,5 +1,5 @@
 
-[← Inicio](readme.md)
+[← Inicio](./README.md)
 
 ------
 # Arquitecturas de API: Explicación y Ejemplos

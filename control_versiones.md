@@ -1,4 +1,4 @@
-[← Inicio](readme.md)
+[← Inicio](./README.md)
 
 ------
 # Control de Versiones con Git
