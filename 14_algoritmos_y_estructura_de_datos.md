@@ -1,6 +1,9 @@
+[← Inicio](./README.md)
+
+------
 # Algoritmos y Estructuras de Datos: Explicación y Ejemplos
 
-Este documento cubre el concepto de algoritmos y estructuras de datos, sus tipos y ejemplos de uso.
+
 
 ## Índice
 1. [Definición de Algoritmos](#definición-de-algoritmos)
