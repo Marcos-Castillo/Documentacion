@@ -1,6 +1,11 @@
-# Documentación para Desarrolladores 
+# Repositorio de Información Importante
 
-## Contenidos Recomendados
+Bienvenido al repositorio de información esencial para desarrolladores. Aquí encontrarás recursos y documentación sobre mejores prácticas, principios de diseño, pruebas, arquitecturas y más, todos destinados a mejorar la calidad y la eficiencia de tu trabajo en el desarrollo de software.
+
+## Contenidos Destacados
+
+Este repositorio incluye una serie de documentos que abarcan diversos temas relevantes en el ámbito del desarrollo de software. A continuación se presentan los contenidos recomendados:
+
 
 ### 1. [Principios SOLID](1_solid.md)
 Aprende los cinco principios fundamentales de diseño orientado a objetos que mejoran la calidad y mantenibilidad del software.
@@ -77,4 +82,16 @@ Los microservicios son un enfoque arquitectónico que permite desarrollar aplica
 
 ### 14. [Algoritmos y estructuras de datos](14_algoritmos_y_estructura_de_datos.md) 
 Los algoritmos son secuencias de instrucciones para resolver problemas o realizar tareas. Su eficiencia se mide en términos de tiempo y espacio.
+---
 
+### 14. [Licencias de Software](15_licencias.md) 
+Este documento cubre el concepto de licencias de software, sus tipos más comunes y una breve descripción de cada una.
+
+---
+## Cómo Contribuir
+
+Si deseas contribuir a este repositorio, no dudes en enviar un pull request con tus sugerencias o recursos adicionales.
+
+## Licencia
+
+Este repositorio está bajo la Licencia MIT. Consulta el archivo LICENSE para más información.
