@@ -1,10 +1,6 @@
-[← Inicio](./README.md)
-
-------
-
 # Patrones de Diseño: Guía Simplificada
 
-# Índice
+## Índice
 
 1. [Patrones Creacionales](#patrones-creacionales)
    1. [Factory Method](#factory-method)
@@ -39,7 +35,6 @@
    2. [Microservicios](#microservicios)
    3. [Message Broker](#message-broker)
    4. [Gateway](#gateway)
-
 
 ## Patrones Creacionales
 Estos patrones proporcionan mecanismos para la creación de objetos que incrementan la flexibilidad y reutilización del código.
@@ -163,55 +158,17 @@ Estos patrones gestionan la interacción y responsabilidad entre objetos.
 ## Otros Patrones
 
 ### MVC (Modelo-Vista-Controlador)
-- **Uso**: Separar la lógica de la aplicación (modelo), la interfaz de usuario (vista) y el control de entradas (controlador).
-- **Ejemplo**: Aplicaciones web donde la entrada del usuario controla el procesamiento de datos y la presentación.
-- **Microservicios**: Ayuda a organizar servicios que manejan la interacción del usuario, la lógica de negocio y el acceso a datos por separado.
+- **Descripción**: Un patrón arquitectónico que separa la lógica de negocio (Modelo), la interfaz de usuario (Vista) y la gestión de entradas del usuario (Controlador).
+- **Uso**: Aplicaciones web y de escritorio donde se necesita una clara separación de preocupaciones.
 
 ### Microservicios
-- **Uso**: Descomponer una aplicación en servicios independientes y acoplados de manera flexible que se comunican en red.
-- **Ejemplo**: Una aplicación grande con servicios individuales para autenticación de usuarios, pagos y notificaciones.
-- **Microservicios**: Se aplica directamente a la arquitectura de microservicios.
+- **Descripción**: Un enfoque arquitectónico que estructura una aplicación como una colección de servicios pequeños y autónomos.
+- **Uso**: Facilita el desarrollo, la escalabilidad y el despliegue independiente de componentes de software.
 
 ### Message Broker
-- **Uso**: Desacoplar servicios enviando mensajes entre ellos a través de un intermediario.
-- **Ejemplo**: Una cola de mensajes que gestiona solicitudes entre servicios en un sistema de comercio electrónico.
-- **Microservicios**: Ideal para comunicación asíncrona entre servicios.
+- **Descripción**: Un sistema que permite la comunicación entre aplicaciones mediante el intercambio de mensajes.
+- **Uso**: Facilita la desacoplación entre componentes y la gestión de flujos de datos.
 
 ### Gateway
-- **Uso**: Proporcionar un único punto de entrada a múltiples servicios.
-- **Ejemplo**: Un API gateway que enruta las solicitudes a los microservicios correspondientes.
-- **Microservicios**: Un patrón arquitectónico común en microservicios para gestionar el acceso y la seguridad de los servicios.
-
-
-
-# Patrones de Diseño: Guía Simplificada
-
-Esta guía cubre los patrones de diseño más comunes, categorizados en creacionales, estructurales y de comportamiento.
-
-## Patrones Creacionales
-- **Factory Method**
-- **Abstract Factory**
-- **Builder**
-- **Prototype**
-- **Singleton**
-
-## Patrones Estructurales
-- **Adapter**
-- **Bridge**
-- **Composite**
-- **Decorator**
-- **Facade**
-- **Flyweight**
-- **Proxy**
-
-## Patrones de Comportamiento
-- **Chain of Responsibility**
-- **Command**
-- **Iterator**
-- **Mediator**
-- **Memento**
-- **Observer**
-- **State**
-- **Strategy**
-- **Template Method**
-- **Visitor**
+- **Descripción**: Un punto de entrada para un conjunto de microservicios que gestiona las solicitudes y respuestas.
+- **Uso**: Ayuda a simplificar la comunicación entre los clientes y los microservicios.
