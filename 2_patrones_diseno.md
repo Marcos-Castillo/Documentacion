@@ -1,4 +1,4 @@
-# Patrones de Diseño: Guía Simplificada
+# Patrones de Diseño
 
 ## Índice
 
