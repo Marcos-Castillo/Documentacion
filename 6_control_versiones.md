@@ -78,4 +78,6 @@ Aquí hay una lista de algunos de los comandos más comunes en Git junto con sus
 12. **git revert [commit]**  
     Crea un nuevo commit que deshace los cambios de un commit anterior.
 
+    [Manual de Git y GitHub](./Manual_de_Git_y_GitHub.md)
+
 Al dominar estos conceptos y comandos de Git, los desarrolladores pueden trabajar de manera más eficiente y colaborar de manera efectiva en proyectos de software.
