@@ -93,10 +93,8 @@ Este documento cubre el concepto de licencias de software, sus tipos más comune
 ### 15. [Programación funcional](16_programacion_funcional.md) 
 La **programación funcional** es un paradigma de programación que trata de construir software mediante la evaluación de funciones matemáticas, evitando el uso de estados mutables y efectos secundarios. En lugar de comandos, se utiliza la composición de funciones.
 
+
 ---
-
-
-
 
 ## Cómo Contribuir
 
